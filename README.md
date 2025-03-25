@@ -64,25 +64,25 @@ Digital image processing is an essential component of modern computer vision and
 
 
 # Expected Milestones and Outcomes :
-## Phase 1 (Week 1-2):
+## Phase 1 :
 
 - Finalize project proposal and team roles.
 
 - Review literature on FPGA-based image filtering.
 
-## Phase 2 (Week 3-4):
+## Phase 2 :
 
 - Develop individual Verilog modules for each filter.
 
 - Implement testbenches to verify functionality.
 
-## Phase 3 (Week 5-6):
+## Phase 3 :
 
 - Integrate all modules into a single pipeline.
 
 - Implement user controls for selecting filters.
 
-## Phase 4 (Week 7-8):
+## Phase 4 :
 
 - Test the design on FPGA hardware.
 
