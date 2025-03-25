@@ -7,7 +7,7 @@
 
 # Overview of Project
 
-The goal of this project is to implement computationally intensive digital image filters on an FPGA platform to achieve real-time image processing. Digital image processing plays a crucial role in a wide range of applications, from video streaming to computer vision and augmented reality. Processing images in real-time can be computationally expensive, especially when applying complex filters to high-resolution images. Traditional software-based solutions struggle with the latency and processing time required for live image analysis, making hardware acceleration through FPGAs an ideal solution.
+The goal of this project is to implement computationally intensive digital image filters on an FPGA platform to achieve real-time image processing. Digital image processing plays a crucial role in a wide range of applications, from video streaming to computer vision and augmented reality. Processing images in real-time can be computationally expensive, especially when applying complex filters to high-resolution images. Software-based solutions struggle with the latency and processing time required for live image analysis, making hardware acceleration through FPGAs more effective.
 
 By accelerating the image filtering process on FPGA hardware, we aim to significantly improve processing time, enabling real-time applications such as video stream processing, edge detection for vision systems, and preprocessing stages for AI-based systems. The FPGA's parallel processing capability will allow for faster data manipulation than general-purpose processors, making it suitable for high-speed image processing tasks. We aim to implement and evaluate multiple image filtering techniques, including:
 
