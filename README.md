@@ -1,5 +1,5 @@
 # Image-Processing-FPGA
-## Project Title: Real-Time Image Filtering on FPGA
+## Project Title: Image Processing on FPGA
 
 ### Names of Teammates:
 - Rithani Priyanga Coimbatore Kannan (hwu6hc)
@@ -11,13 +11,13 @@ The goal of this project is to implement computationally intensive digital image
 
 By accelerating the image filtering process on FPGA hardware, we aim to significantly improve processing time, enabling real-time applications such as video stream processing, edge detection for vision systems, and preprocessing stages for AI-based systems. The FPGA's parallel processing capability will allow for faster data manipulation than general-purpose processors, making it suitable for high-speed image processing tasks. We aim to implement and evaluate multiple image filtering techniques, including:
 
-- Box Filter
-
 - Gaussian Filter
 
-- Moving Average Filter
+- Box Filter
 
-- Grayscale Conversion
+- Moving Average Convolution
+
+- Grayscale Conversion, and many others
 
 By accelerating these filters in hardware, we can enable real-time processing for applications such as live video processing, preprocessing for computer vision applications, and edge computing tasks.
 
