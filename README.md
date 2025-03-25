@@ -27,39 +27,39 @@ Digital image processing is an essential component of modern computer vision and
 
 ### Box Filter:
 
-A simple averaging filter that replaces each pixel value with the average of the surrounding pixels.
+* A simple averaging filter that replaces each pixel value with the average of the surrounding pixels.
 
-Used for basic image smoothing.
+* Used for basic image smoothing.
 
 ### Gaussian Filter:
 
-A weighted averaging filter that smooths images while preserving edges better than a standard box filter.
+* A weighted averaging filter that smooths images while preserving edges better than a standard box filter.
 
-Useful for reducing image noise and detail.
+* Useful for reducing image noise and detail.
 
 ### Moving Average Filter:
 
-Computes the average of a subset of pixels over a moving window.
+* Computes the average of a subset of pixels over a moving window.
 
-Can be used to remove high-frequency noise in images.
+* Can be used to remove high-frequency noise in images.
 
 ### Grayscale Conversion:
 
-Converts an RGB image to grayscale by computing a weighted sum of the R, G, and B channels.
+* Converts an RGB image to grayscale by computing a weighted sum of the R, G, and B channels.
 
-Used as a preprocessing step in many computer vision tasks.
+* Used as a preprocessing step in many computer vision tasks.
 
 ### FPGA Implementation Strategy:
 
-Image data will be captured from a camera or loaded from memory.
+* Image data will be captured from a camera or loaded from memory.
 
-A dedicated image processing module will be implemented in Verilog.
+* A dedicated image processing module will be implemented in Verilog.
 
-A pipeline architecture will be used to apply the filters efficiently.
+* A pipeline architecture will be used to apply the filters efficiently.
 
-Filter selection will be controlled via switches or user input.
+* Filter selection will be controlled via switches or user input.
 
-The processed image will be displayed on a monitor via VGA output.
+* The processed image will be displayed on a monitor via VGA output.
 
 
 # Expected Milestones and Outcomes
@@ -94,14 +94,14 @@ The processed image will be displayed on a monitor via VGA output.
 
 - Prepare a final report and demonstration.
 
-## Expected Challenges
+# Expected Challenges
 
-Memory Bandwidth: Efficiently accessing and storing image data in SDRAM may require careful optimization.
+- Memory Bandwidth: Efficiently accessing and storing image data in SDRAM may require careful optimization.
 
-Pipeline Implementation: Ensuring smooth data flow through multiple filter stages without bottlenecks.
+- Pipeline Implementation: Ensuring smooth data flow through multiple filter stages without bottlenecks.
 
-Hardware Constraints: Managing FPGA resources efficiently to accommodate all filters within available logic elements.
+- Hardware Constraints: Managing FPGA resources efficiently to accommodate all filters within available logic elements.
 
-Real-Time Processing: Achieving low-latency performance for live video applications.
+- Real-Time Processing: Achieving low-latency performance for live video applications.
 
 By successfully implementing this project, we aim to demonstrate the power of FPGA acceleration for real-time image processing and gain hands-on experience with digital design methodologies.
