@@ -1,7 +1,7 @@
 # Image-Processing-FPGA
-# Project Title: Real-Time Image Filtering on FPGA
+## Project Title: Real-Time Image Filtering on FPGA
 
-# Names of Teammates: Rithani Priyanga Coimbatore Kannan (hwu6hc), Vishnuvartthan Govindaraj (fpp6vt) 
+### Names of Teammates: Rithani Priyanga Coimbatore Kannan (hwu6hc), Vishnuvartthan Govindaraj (fpp6vt) 
 
 # Overview of Project
 
