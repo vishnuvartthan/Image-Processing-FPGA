@@ -62,8 +62,8 @@ Digital image processing is an essential component of modern computer vision and
 * The processed image will be displayed on a monitor via VGA output.
 
 
-# Expected Milestones and Outcomes
 
+# Expected Milestones and Outcomes :
 ## Phase 1 (Week 1-2):
 
 - Finalize project proposal and team roles.
