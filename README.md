@@ -34,7 +34,7 @@ By utilizing FPGAs, we can achieve a substantial speedup in image processing, en
 The project will be divided into several phases, with the core task being the design and implementation of multiple image filters on an FPGA. The following sections outline the primary techniques we will implement and their intended benefits.
 
 ## Image Filtering Techniques to be Implemented:
-- Box Filter:
+### Box Filter:
 
 * The Box Filter is a simple image smoothing filter that replaces each pixel in an image with the average of the pixels in a surrounding window.
 
@@ -42,31 +42,26 @@ The project will be divided into several phases, with the core task being the de
 
 * Although computationally simple, it serves as a foundation for more advanced filters.
 
-- Gaussian Filter:
+### Gaussian Filter:
 
 * The Gaussian filter smooths the image while preserving edges better than the Box Filter by applying a weighted average.
 
 * It uses a Gaussian kernel, which gives higher weights to the central pixels and lower weights to the surrounding ones, effectively blurring the image with minimal edge distortion.
 
-It is widely used in preprocessing stages to reduce noise while maintaining important features.
+* It is widely used in preprocessing stages to reduce noise while maintaining important features.
 
-- Moving Average Filter:
+### Moving Average Filter:
 
 * This filter calculates the average of a group of surrounding pixels, typically within a sliding window, and is used to remove high-frequency noise in images.
 
 * It’s useful in reducing the sharp fluctuations in pixel intensity that occur in noisy or less than ideal conditions.
 
-- Grayscale Conversion:
+### Grayscale Conversion:
 
 * Grayscale conversion involves converting a colored RGB image to shades of gray by computing a weighted sum of the red, green, and blue pixel values.
 
 * This step simplifies image analysis and is commonly used in various computer vision algorithms for edge detection, feature extraction, and pattern recognition.
 
-- Box Filter:
-
-* A simple averaging filter that replaces each pixel value with the average of the surrounding pixels.
-
-* Used for basic image smoothing.
 
 
 ### FPGA Implementation Strategy:
